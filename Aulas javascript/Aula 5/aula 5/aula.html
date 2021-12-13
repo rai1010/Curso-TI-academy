@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // alert("ola mundo");
+    // prompt("digite aluma coisa");
+    // confirm("clique em um botao");
+
+    // var nome = prompt("digite seu nome");
+    // var cor = prompt("qual sua cor favorita" + nome);
+
+    // document.write("nome...: "+ nome  + "<br>");
+    // document.write("a cor favorita do "+nome+ " é " +cor+ "<br>");
+
+    
+
+    // if(confirm("clique em um botao")){
+    //     console.log("voce clicou no ok");
+
+    // }else {
+    //     console.log("você clicou no cancelar");
+
+    // }
+    
+    var opcao = prompt("digite 1 ou 2 para continuar");
+    console.log;
+
+    switch(opcao){
+        case 1:
+            var pergunta = confirm("voce pretende continuar a operaçao");
+            if(pergunta){
+                alert("parabens voce é corajoso");
+            } else {
+                alert("poxa vida, voce esta preocupado");
+            }
+        break;
+
+        case 2:
+            var pergunta = confirm("voce é casado");
+            if(pergunta){
+                var conj = prompt("qual é o nome do sue conjuge?");
+                alert("parabens por ser casado com a "+ conj);
+            }
+        break;
+        
+        default: console.log("esta opcao nao existe");
+        break;
+
+
+    }
+
+
+
+</script>
+<body>
+    
+</body>
+</html>
