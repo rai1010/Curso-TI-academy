@@ -1,0 +1,7 @@
+Respostas
+1) background: linear-gradiente(red,black)
+
+2) falso, você pode colocar o css no corpo do html mas 
+o recomendado é que o css esteja em um arquivoseparado
+
+3)o pixel eh uma unidade de medida estatica
